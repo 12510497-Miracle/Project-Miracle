@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order | GOODSPEED</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <a href="index.html" class="logo">GOOD<span>SPEED.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button>
+    <nav id="navMenu">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="order.html" class="active">Order</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+    <a href="order.html" class="nav-button">Order Now ↗</a>
+</header>
+
+<section class="page-hero">
+    <p class="eyebrow">MAKE YOUR DAY BETTER</p>
+    <h1>Place Your <span>Order.</span></h1>
+    <p>Choose your favorite and enjoy every sip.</p>
+</section>
+
+<section class="order-section section-padding">
+    <div class="order-intro">
+        <div class="section-label">ORDER ONLINE</div>
+        <h2>Your coffee,<br><span>your way.</span></h2>
+        <p>Isi formulir berikut untuk melakukan pemesanan.</p>
+    </div>
+
+    <form id="orderForm" class="order-form">
+        <label for="customerName">Nama Lengkap</label>
+        <input type="text" id="customerName" placeholder="Masukkan nama kamu" required>
+
+        <label for="customerPhone">Nomor WhatsApp</label>
+        <input type="tel" id="customerPhone" placeholder="08xxxxxxxxxx" required>
+
+        <label for="productSelect">Pilih Menu</label>
+        <select id="productSelect" required>
+            <option value="">-- Pilih menu --</option>
+            <option value="Americano">Americano - Rp 25.000</option>
+            <option value="Cafe Latte">Cafe Latte - Rp 30.000</option>
+            <option value="Cappuccino">Cappuccino - Rp 30.000</option>
+            <option value="Matcha Latte">Matcha Latte - Rp 32.000</option>
+            <option value="Chocolate">Chocolate - Rp 28.000</option>
+            <option value="Fresh Pastry">Fresh Pastry - Rp 22.000</option>
+            <option value="Cheesecake">Cheesecake - Rp 28.000</option>
+            <option value="Brownie">Brownie - Rp 22.000</option>
+        </select>
+
+        <label for="quantity">Jumlah Pesanan</label>
+        <input type="number" id="quantity" min="1" value="1" required>
+
+        <label for="notes">Catatan Tambahan</label>
+        <textarea id="notes" rows="4" placeholder="Contoh: less sugar, less ice..."></textarea>
+
+        <button type="submit" class="btn btn-primary order-submit">
+            Pesan Sekarang ↗
+        </button>
+    </form>
+</section>
+
+<footer class="footer">
+    <div>
+        <a href="index.html" class="logo">GOOD<span>SPEED.</span></a>
+        <p>Good coffee, good people, good moments.</p>
+    </div>
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="order.html">Order</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+    <p class="copyright">© 2026 GOODSPEED Coffee & More.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

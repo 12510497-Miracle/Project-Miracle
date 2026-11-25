@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOODSPEED Coffee & More</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="loader" id="loader">
+    <div class="loader-circle"></div>
+    <p>GOODSPEED COFFEE</p>
+</div>
+
+<header class="navbar">
+    <a href="index.html" class="logo">GOOD<span>SPEED.</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button>
+
+    <nav id="navMenu">
+        <a href="index.html" class="active">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="order.html">Order</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <a href="order.html" class="nav-button">Order Now ↗</a>
+    <a href="index.html" class="rotating-logo" aria-label="Logo GOODSPEED - Beranda">
+        <img src="images/01_logo_goodspeed.png" alt="">
+    </a>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-slides">
+            <div class="hero-slide active" style="background-image: linear-gradient(90deg,rgba(0,0,0,.8),rgba(0,0,0,.2)),url('images/02_storefront.png')"></div>
+            <div class="hero-slide" style="background-image: linear-gradient(90deg,rgba(0,0,0,.8),rgba(0,0,0,.2)),url('images/03_interior.png')"></div>
+            <div class="hero-slide" style="background-image: linear-gradient(90deg,rgba(0,0,0,.8),rgba(0,0,0,.2)),url('images/05_cappuccino.png')"></div>
+        </div>
+
+        <div class="hero-content">
+            <p class="eyebrow">COFFEE & MORE · EST. 2026</p>
+            <h1>Good Coffee.<br><span>Good Moments.</span></h1>
+            <p class="hero-description">
+                Temukan pengalaman menikmati kopi dengan rasa terbaik,
+                suasana nyaman, dan momen yang tidak terlupakan.
+            </p>
+
+            <div class="hero-actions">
+                <a href="menu.html" class="btn btn-primary">Explore Menu ↗</a>
+                <a href="about.html" class="btn btn-outline">Discover Us</a>
+            </div>
+        </div>
+
+        <div class="slider-controls">
+            <button id="prevSlide" aria-label="Slide sebelumnya">←</button>
+            <div class="slider-dots" id="sliderDots"></div>
+            <button id="nextSlide" aria-label="Slide berikutnya">→</button>
+        </div>
+
+        <div class="hero-bottom">
+            <span>01 — 03</span>
+            <span>SCROLL TO EXPLORE ↓</span>
+        </div>
+    </section>
+
+    <section class="welcome section-padding">
+        <div class="section-label">WELCOME TO GOODSPEED</div>
+        <div class="welcome-grid">
+            <div>
+                <h2>More than coffee,<br><span>it's an experience.</span></h2>
+            </div>
+            <div>
+                <p>
+                    GOODSPEED Coffee & More adalah tempat untuk menikmati
+                    secangkir kopi, berbagi cerita, dan menghabiskan waktu
+                    bersama orang-orang terdekat.
+                </p>
+                <a href="about.html" class="text-link">Learn More About Us ↗</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured section-padding">
+        <div class="section-heading">
+            <div>
+                <div class="section-label">OUR FAVORITES</div>
+                <h2>Customer's <span>Favorites</span></h2>
+            </div>
+            <a href="menu.html" class="text-link">View All Menu ↗</a>
+        </div>
+
+        <div class="product-grid">
+            <article class="product-card">
+                <img src="images/Latte.jpe" alt="Coffee">
+                <div class="product-info">
+                    <span>COFFEE</span>
+                    <h3>Signature Coffee</h3>
+                    <p>Rich flavor, smooth taste.</p>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="images/Matcha.jpe" alt="Matcha">
+                <div class="product-info">
+                    <span>NON COFFEE</span>
+                    <h3>Premium Matcha</h3>
+                    <p>Fresh, creamy, and relaxing.</p>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="images/chocholate.jpe" alt="Chocolate">
+                <div class="product-info">
+                    <span>SPECIAL DRINK</span>
+                    <h3>Chocolate Bliss</h3>
+                    <p>Sweet moments in every sip.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="quote-section">
+        <p>“Life happens, coffee helps.”</p>
+        <span>— GOODSPEED COFFEE & MORE —</span>
+    </section>
+</main>
+
+<footer class="footer">
+    <div>
+        <a href="index.html" class="logo">GOOD<span>SPEED.</span></a>
+        <p>Good coffee, good people, good moments.</p>
+    </div>
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="order.html">Order</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+    <p class="copyright">© 2026 GOODSPEED Coffee & More.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
